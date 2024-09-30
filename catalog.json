@@ -1,0 +1,36 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Ноутбук",
+      "description": "Цифровая техника"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "DEXP Aquilon",
+      "description": "Цифровая техника",
+      "photo": "",
+      "category": 1,
+      "price": "17399.00",
+      "created_at": "2024-09-28",
+      "updated_at": "2024-09-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Chuwi HeroBook Pro",
+      "description": "Цифровая техника",
+      "photo": "",
+      "category": 1,
+      "price": "19899.00",
+      "created_at": "2024-09-29",
+      "updated_at": "2024-09-29"
+    }
+  }
+]
